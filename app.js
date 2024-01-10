@@ -1,4 +1,4 @@
-function add(num1, num2) {
-    return num1 + num2;
-}
-console.log(add(1, 6));
+"use strict";
+const express = require('express');
+const app = express();
+app.listen(3001);
